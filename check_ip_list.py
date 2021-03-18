@@ -35,7 +35,7 @@ def check_malicious(ip):
             if malicious_count == 1:
                 print(f"{ip} - Malicious({malicious_count} Engine)")
             else:
-                print(f"{ip} - Malicious({malicious_count} Egines)")
+                print(f"{ip} - Malicious({malicious_count} Engines)")
 
             LIST_MALICIOUS.append(ip)
     except:
